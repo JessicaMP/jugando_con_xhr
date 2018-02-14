@@ -1,0 +1,60 @@
+.masthead {
+  background-color: #fc0;
+  padding: 45px;
+  box-sizing: border-box;
+}
+
+.visualhidden {
+  display: none;
+}
+
+#search-keyword {
+  width: 70%;
+  padding: 10px;
+}
+
+#submit-btn {
+  width: 20%;
+  background-color: #45f;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  height: 30px;
+  text-transform: uppercase;
+}
+
+.left, .right {
+  width: 49%;
+  display: inline-block;
+}
+
+.masthead-right {
+  background-color: pink;
+  padding: 45px;
+  box-sizing: border-box;
+}
+
+.visualhidden-right {
+  display: none;
+}
+
+#search-keyword-right {
+  width: 70%;
+  padding: 10px;
+}
+
+#submit-btn-right {
+  width: 20%;
+  background-color: purple;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  height: 30px;
+  text-transform: uppercase;
+}
+
+.articleClass {
+  box-sizing: border-box;
+  border: 2px solid black;
+  width: 100%;
+  padding: 1rem;
