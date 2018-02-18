@@ -29,7 +29,7 @@ function addNews() {
   const data = JSON.parse(this.responseText);
   const articles = data.response.docs;
   if (articles.length > 0) {
-    articles.forEach((article) => {
+    articles.forEach(function(article) {
       const title = article.headline.main;
       const snippet = article.snippet;
       const uri = article.multimedia[0].url;
@@ -42,7 +42,7 @@ function addNews() {
       box.className = 'articleClass';
       paragraph.innerText = snippet;
       titleParagraph.innerText = title;
-      image.src = 'https://www.nytimes.com/' + uri;
+      image.src = 'https://www.nytimes.com//' + uri;
 
       box.appendChild(titleParagraph);
       box.appendChild(paragraph);
@@ -51,7 +51,7 @@ function addNews() {
 
       titleParagraph.addEventListener('click', () => {
         window.location.href = webUrl;
-      });
+        });
     });
   }
 }

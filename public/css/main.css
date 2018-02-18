@@ -8,9 +8,16 @@ body {
 }
 
 .masthead {
-  background-color: #fc0;
+  background-color: #f24;
   padding: 45px;
   box-sizing: border-box;
+}
+
+.title {
+  color: #fab;
+  font-size: 40px;
+  margin-top: 0;
+  font-weight: bold;
 }
 
 #search-keyword {
@@ -20,7 +27,7 @@ body {
 
 #btn-xhr {
   width: 10%;
-  background-color: #45f;
+  background-color: #c87;
   color: white;
   font-weight: bold;
   border-radius: 5px;
@@ -34,7 +41,7 @@ body {
 
 #btn-fetch {
   width: 10%;
-  background-color: purple;
+  background-color: #421;
   color: white;
   font-weight: bold;
   border-radius: 5px;
